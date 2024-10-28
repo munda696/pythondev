@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="config.xslt"?>
+<Settings>
+<!-- Sample ULH Config file -->
+<StudyRun>2024M2</StudyRun>
+<!-- Date the Production Sequence is initiated, for renaming workspaces (mmddyyyy) -->
+<SequenceStartDate>03112024</SequenceStartDate>
+<NewRateFiles>False</NewRateFiles>
+<NewPlans>True</NewPlans>
+<!-- Full Path of approval email for production deployment of new plans -->
+<ApprovalEmail>C:\Windows\SampleMeasure\test\RE_New Plans.msg</ApprovalEmail>
+<!-- Remaining elements are static or updated via automation -->
+<FileCompareLocation>C:\Windows\SampleMeasure\test\FileComparison\UL-H</FileCompareLocation>
+<GitRoot>D:\GitHub\MyGit-app</GitRoot>
+<TBLSource>C:\Windows\SampleMeasure\TableDF\UL-H</TBLSource>
+<CSVSource>C:\Windows\SampleMeasure\PTOCSV\UL-H</CSVSource>
+<MortalityTableSource>C:\Windows\SampleMeasure\MTables\UL-H</MortalityTableSource>
+<ZipResultsDestination>C:\Windows\SampleMeasure\Results\UL-H</ZipResultsDestination>
+<GitHubDirectory>D:\GitHub\MyGit-app-app\GL\201704</GitHubDirectory>
+<ControlFilesDirectory>C:\Windows\SampleMeasure\SampleMeasure_controls\UL-H</ControlFilesDirectory>
+<Workspaces>
+<Dev>D:\Manish</Dev>
+<Test>\\ManishTestServer</Test>
+<Prod>\\ManishProdServer\Manish</Prod>
+</Workspaces>
+</Settings>

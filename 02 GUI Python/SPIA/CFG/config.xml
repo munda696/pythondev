@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+<LastStudyYear>2021</LastStudyYear>
+<!-- Date the Production Sequence is initiated, for renaming workspaces (mmddyyyy) -->
+<SequenceStartDate>07072022</SequenceStartDate>
+<!-- True/False value for whether or not there are new mortality rate files -->
+<NewRatefiles>False</NewRatefiles>
+<FileCompareLocation>C:\Windows\SampleMeasure\test\FileComparison\SPAI</FileCompareLocation>
+<MeasureTableSource>C:\Windows\SampleMeasure\TableDF\SPAI</MeasureTableSource>
+<TBLSource>C:\Windows\SampleMeasure\TableDF\UL-H</TBLSource>
+<CSVSource>C:\Windows\SampleMeasure\PTOCSV\UL-H</CSVSource>
+<MortalityTableSource>C:\Windows\SampleMeasure\MTables\UL-H</MortalityTableSource>
+<ZipResultsDestination>C:\Windows\SampleMeasure\Results\UL-H</ZipResultsDestination>
+<GitHubDirectory>D:\GitHub\MyGit-app-app\GL\201704</GitHubDirectory>
+<Workspaces>
+<Dev>D:\Manish\SPAI\IPMEASURE1</Dev>
+<Test>\\ManishTestServer\SPAI\IP</Test>
+<Prod>\\ManishProdServer\Manish</Prod>
+</Workspaces>
+</Settings>

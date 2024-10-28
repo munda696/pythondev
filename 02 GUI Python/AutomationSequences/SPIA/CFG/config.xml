@@ -1,0 +1,24 @@
+<Settings>
+
+<StudyRun>23122025</StudyRun>
+
+<SequenceStartDate>23122024</SequenceStartDate>
+<NewRateFiles>False</NewRateFiles>
+<NewPlans>True</NewPlans>
+
+<ApprovalEmail>C:\Windows\SampleMeasure\test\RE_New Plans.msg</ApprovalEmail>
+
+<FileCompareLocation>C:\Windows\SampleMeasure\test\FileComparison\UL-H</FileCompareLocation>
+<GitRoot>D:\GitHub\MyGit-app</GitRoot>
+<TBLSource>C:\Windows\SampleMeasure\TableDF\UL-H</TBLSource>
+<CSVSource>C:\Windows\SampleMeasure\PTOCSV\UL-H</CSVSource>
+<MortalityTableSource>C:\Windows\SampleMeasure\MTables\UL-H</MortalityTableSource>
+<ZipResultsDestination>C:\Windows\SampleMeasure\Results\UL-H</ZipResultsDestination>
+<GitHubDirectory>D:\GitHub\MyGit-app-app\GL\201704</GitHubDirectory>
+<ControlFilesDirectory>C:\Windows\SampleMeasure\SampleMeasure_controls\UL-H</ControlFilesDirectory>
+<Workspaces>
+<Dev>D:\Manish</Dev>
+<Test>\\ManishTestServer</Test>
+<Prod>\\ManishProdServer\Manish</Prod>
+</Workspaces>
+</Settings>

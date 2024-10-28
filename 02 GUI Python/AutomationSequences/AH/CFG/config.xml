@@ -1,0 +1,15 @@
+<Settings>
+  
+  <StudyRun>232433</StudyRun>
+  <SequenceStartDate>false</SequenceStartDate>
+  <FileCompareLocation>C:\Windows\SampleMeasure\test\FileComparison\AH</FileCompareLocation>
+  <TBLSource>C:\Windows\SampleMeasure\TableDF\UL-H</TBLSource>
+  <CSVSource>C:\Windows\SampleMeasure\PTOCSV\UL-H</CSVSource>
+  <ZipResultsDestination>C:\Windows\SampleMeasure\Results\UL-H</ZipResultsDestination>
+  <GitHubDirectory>D:\GitHub\MyGit-app-app\GL\201704</GitHubDirectory>
+  <Workspaces>
+    <Dev>D:\Manish</Dev>
+    <Test>\\ManishTestServer</Test>
+    <Prod>\\ManishProdServer\Manish</Prod>
+  </Workspaces>
+</Settings>
